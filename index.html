@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+.head{
+    margin-right: 10px;
+}
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .photo {
+            width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        /* Responsive styles for mobile phones */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .head {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            nav ul li {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .photo {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="photo" src="yash.jpg" alt="Your Photo">
+        <h1 class="head"><i>Portfolio Website</i></h1>
+
+        <nav>
+            <ul>
+                <li><a href="#personal-info">Personal Information</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#linkedin">LinkedIn</a></li>
+                <li><a href="#github">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <p>Name: Yash Chaturvedi</p>
+        <p>Email: chaturvediyash624@gmail.com</p>
+        <p>Phone: 9571354529</p>
+    </section>
+    <hr>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Technology in Information Technology, Poornima College of Engineering, 2021-2025</p>
+    </section>
+    <hr>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Software Engineer Intern, JP Morgan Chase and Co.</h3>
+        <p>May 2023 - June 2023</p>
+        <ul>
+            <li>A Virtual Internship Organized by JP Morgan Chase and Co.</li>
+            <li>Interface with a Stock Price Data Feed using Python Programming Language</li>
+            <li>Collaborated in Open Source Contribution</li>
+            <li>Performed code reviews and implemented best practices</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Hosting</li>
+            <li>Frontend Development</li>
+            <li>JavaScript</li>
+            <li>React JS</li>
+            <li>Node JS</li>
+            <li>Express JS</li>
+            <li>MongoDB</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Figma</li>
+            <li>UI/UX</li>
+            <li>WordPress</li>
+            <li>Android</li>
+            <li>Database</li>
+            <li>Backend Development</li>
+            <li>REST API</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C/C++</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Weather Web App</h3>
+            <p>
+                Weather project is a web application that displays weather conditions for various cities around the world. It is being developed using HTML, CSS, JavaScript, and React JS. The application uses real-world weather data provided by the OpenWeather API and is hosted on GitHub. Users can select a city from a list or search for a city by name, and the application will display current weather conditions, including temperature, humidity, wind speed, and more. The application may also provide additional features such as weather forecasts, historical weather data, and interactive maps. Overall, the project aims to provide an intuitive and user-friendly way for people to access up-to-date weather information from around the world.
+            </p>
+            <a href="https://yashchaturvediir.github.io/weather/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Restaurant Website using React JS</h3>
+            <p>
+                I have developed a restaurant website using React and hooks, which offers a seamless and interactive user experience. Although I would like to inform you that currently, the website is non-responsive and is optimized for desktop users only. However, I am actively working on making it responsive, so Android users can access it easily on their mobile devices. Thank you for your patience, and I assure you that the website will be fully optimized for all devices soon.
+            </p>
+            <a href="https://yashchaturvediir.github.io/resturant-web/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>A To-do List using Local Storage</h3>
+            <p>
+                As a passionate developer, I've created a productivity-boosting to-do list project using React JS. This project helps users stay organized and manage their daily tasks effectively, all while enjoying a seamless user experience. Hosted on GitHub, this project is a testament to my dedication to using the latest technologies to build practical solutions. Check it out and let me know what you think!
+            </p>
+            <a href="https://yashchaturvediir.github.io/todo/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Messaging App (Android Development)</h3>
+            <p>
+                A Messaging App Developed by Me using Android Studio IDE and Firebase as a Database.
+It is a Project based on Android App Development
+                </p>
+            <a href="https://github.com/YashchaturvediIR/MyMessagingApp-Android-" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>RESTful API with all CRUD Operations</h3>
+            <p>
+                Developed a robust and efficient RESTful API using Node.js, Express.js, and MongoDB, enabling seamless integration with a database. The API supports all CRUD operations, allowing users to create, read, update, and delete resources effortlessly. With its intuitive design and powerful functionality, the API provides a reliable foundation for building scalable web applications.
+                </p>
+            <a href="https://github.com/YashchaturvediIR/Rest_API" target="_blank">View Project</a>
+        </div>
+        
+    </section>
+    <hr>
+
+    <section id="linkedin">
+        <h2>LinkedIn</h2>
+        <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/yash-chaturvedi-6a35881a3/" target="_blank">Yash Chaturvedi</a></p>
+    </section>
+    <hr>
+
+    <section id="github">
+        <h2>GitHub</h2>
+        <p>Check out my GitHub profile: <a href="https://github.com/YashChaturvediIR" target="_blank">YashChaturvediIR</a></p>
+    </section>
+    <hr>
+
+    <footer>
+        <p>© 2023 Yash Chaturvedi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
